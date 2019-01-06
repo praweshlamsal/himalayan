@@ -1,0 +1,80 @@
+@import 'media.scss';
+#navigation-bar
+{
+	.navbar-header
+	{
+		position: absolute;
+		left: calc(50% - 80px);
+		top: 0px;
+		@include max(990px)
+			{
+				position: relative;
+				left: 0px;
+				right: 0px;
+			}
+	}
+	.navbar-brand
+	{
+		position: relative;
+		z-index: 999;
+		img
+		{
+
+			position: relative;
+			height: 80px;
+			width: 80px;
+			border-radius: 50%;
+			box-shadow: 0 8px 6px -6px black;
+			z-index: 999;
+			@include max(990px)
+			{
+				height: 60px;
+				width: 60px;
+				top: -10px;
+			}
+		}
+		
+	}
+	.navbar-collapse
+	{
+		ul
+		{
+			&:nth-child(1)
+			{
+				width: 50%;
+				padding-right: 100px;
+				li
+				{
+					float: right;
+					@include max(770px)
+					{
+						float: none !important;
+					}
+				}
+				@include max(990px)
+				{
+					@include max(770px)
+					{
+						float: none !important;
+					}
+					width: auto;
+					padding: 0px;
+					float: right;
+					li
+					{
+						width:auto;
+						float: left;
+					}
+				}
+			}
+			&:nth-child(2)
+			{
+				width: 50%;
+				@include max(990px)
+				{
+					width: auto;
+				}
+			}
+		}
+	}
+}
