@@ -1,71 +1,214 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Himalayan Co-operative</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="manifest" href="site.webmanifest">
-        <link rel="apple-touch-icon" href="icon.png">
-        <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="assets/css/aos.css">
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
-        <link rel ="stylesheet" type="text/css" href="slick/slick.css">
-        <link rel ="stylesheet" type="text/css" href="slick/slick-theme.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-    <body>
-        <section id="navigation-bar">
-            <nav class="navbar navbar-default">
-                  <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                      </button>
-                      <a class="navbar-brand" href="#">
-                          <img class="img img-responsive" src="assets/images/final_logo.png">
-                      </a>
-                    </div>
+<?php include 'assets/common/header.php';?>
+<?php include 'assets/common/nav.php';?>
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                      <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">Link</a></li>
-                      </ul>
-                      <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Home</a></li>
-                        <li class="active"><a href="#">Activity <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Progress <span class="caret"></span></a>
-                          <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </div><!-- /.navbar-collapse -->
-                  </div><!-- /.container-fluid -->
-                </nav>
+        <section id="slider">
+          <div class="images-collection">
+              <div class="image-wrapper">
+                    <div class="image">
+                      <img class="img img-responsive" src="assets/images/img1.jpg">
+                    </div>
+                    <div class="img-text">
+                      <div class="text-wrapper">
+                        <div class="text-head">
+                          <h2 class="h2 h2-responsive">प्रमुख कार्यकारी निर्देशक : श्री सुरेन्द्र भण्डारी</h2>  
+                        </div>
+                        <div class="text-detail">
+                          <h5 class="h5 h5-responsive" >१५ वर्ष तथा ५ वर्ष स्थायी सेवा पुरा गर्ने कर्मचारीहरू संयुक्त तस्विर खिचाउँदै</h5>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="image-wrapper">
+                    <div class="image">
+                      <img class="img img-responsive" src="assets/images/img2.jpg">
+                    </div>
+                    <div class="img-text">
+                      <div class="text-wrapper">
+                        <div class="text-head">
+                          <h2 class="h2 h2-responsive">प्रमुख कार्यकारी निर्देशक : श्री सुरेन्द्र भण्डारी</h2>  
+                        </div>
+                        <div class="text-detail">
+                          <h5 class="h5 h5-responsive">१५ वर्ष तथा ५ वर्ष स्थायी सेवा पुरा गर्ने कर्मचारीहरू संयुक्त तस्विर खिचाउँदै</h5>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="image-wrapper">
+                    <div class="image">
+                      <img class="img img-responsive" src="assets/images/img2.jpg">
+                    </div>
+                    <div class="img-text">
+                      <div class="text-wrapper">
+                        <div class="text-head">
+                          <h2 class="h2 h2-responsive">प्रमुख कार्यकारी निर्देशक : श्री सुरेन्द्र भण्डारी</h2>  
+                        </div>
+                        <div class="text-detail">
+                          <h5 class="h5 h5-responsive">१५ वर्ष तथा ५ वर्ष स्थायी सेवा पुरा गर्ने कर्मचारीहरू संयुक्त तस्विर खिचाउँदै</h5>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="image-wrapper">
+                    <div class="image">
+                      <img class="img img-responsive" src="assets/images/img3.jpg">
+                    </div>
+                    <div class="img-text">
+                      <div class="text-wrapper">
+                        <div class="text-head">
+                          <h2 class="h2 h2-responsive">प्रमुख कार्यकारी निर्देशक : श्री सुरेन्द्र भण्डारी</h2>  
+                        </div>
+                        <div class="text-detail">
+                          <h5 class="h5 h5-responsive">१५ वर्ष तथा ५ वर्ष स्थायी सेवा पुरा गर्ने कर्मचारीहरू संयुक्त तस्विर खिचाउँदै</h5>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+          </div>
         </section>
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
-        <script type="text/javascript" src="assets/js/aos.js"></script>
-        <script type="text/javascript" src="assets/js/script.js"></script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-    </body>
-</html>
+               <section id="coop" >
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-offset-1 col-md-10 coop-wrap">
+                        <div class="coop-head" data-aos="zoom-in">
+                          <h2 class="h2 h2-resposive">हाम्रो बारे</h2>
+                        </div>
+                        <div data-aos="fade-right" class="coop-detail">
+                          <h4 class="h4 h4-responsive">
+                            कर्जा लगानी संस्थाले कर्जा लगानीमा विभेदिकरणको सिद्धान्तलाई विशेष रुपमा पालना गर्दै तपशिल विवरणमा उल्लेखित कर्जा शिर्षकहरुमा कर्जा प्रवाह गर्दै आएको व्यहोरा अवगत गराउँदछौं ।देशमा स्थापना भएका वित्तिय संस्था, विकास बैंक तथा वाणिज्य बैंकहरूले मात्र कमजोर अवस्थामा रहेको राष्ट्रिय अर्थतन्त्रलाई अपेक्षाकृत रुपमा सुधारात्मक दिशातर्फ अगाडी बढाउनदेशमा स्थापना भएका वित्तिय संस्था, विकास बैंक तथा वाणिज्य बैंकहरूले मात्र । 
+                          </h4>
+                        </div>
+                        <div class="read-more" data-aos="flip-up">
+                          <button class="btn btn-md">Read more</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </section>
+        <section id="about">
+          <div class="container">
+            <div class="row all-content">
+              <div class="col-md-4 about-image">
+                <div class="image-wrapper" data-aos="fade-right">
+                  <img class="img img-responsive img-thumbnail" src="assets/images/head.jpg">
+                </div>
+              </div>
+              <div class="col-md-8 content">
+                <div class="about-wrapper" data-aos="fade-left">
+                  <div class="wrapper-head">
+                    <h2 class="h2 h2-responsive">प्रमुख कार्यकारी निर्देशकको भनाई</h2>
+                  </div>
+                  <div class="wrapper-detail">
+                    <h4 class="h4 h4-responsive">देशमा स्थापना भएका वित्तिय संस्था, विकास बैंक तथा वाणिज्य बैंकहरूले मात्र कमजोर अवस्थामा रहेको राष्ट्रिय अर्थतन्त्रलाई अपेक्षाकृत रुपमा सुधारात्मक दिशातर्फ अगाडी बढाउनदेशमा स्थापना भएका वित्तिय संस्था, विकास बैंक तथा वाणिज्य बैंकहरूले मात्र कमजोर अवस्थामा रहेको राष्ट्रिय अर्थतन्त्रलाई अपेक्षाकृत रुपमा सुधारात्मक दिशातर्फ अगाडी बढाउनदेशमा स्थापना भएका वित्तिय संस्था, विकास बैंक तथा वाणिज्य बैंकहरूले मात्र कमजोर अवस्थामा रहेको राष्ट्रिय अर्थतन्त्रलाई अपेक्षाकृत रुपमा सुधारात्मक दिशातर्फ अगाडी बढाउन 
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+          <section id="features">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="coop-head" data-aos="zoom-in">
+                    <h2 class="h2 h2-resposive">हाम्रो सेवा</h2>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="features-wrapper" data-aos="fade-up-left">
+                    <div class="features-icon">
+                      <i class="fa fa-clone"></i>
+                    </div>
+                    <div class="features-detail-wrapper">
+                      <div class="features-head">
+                        <h3 class="h3 h3-responsive">
+                          कर्जा सुविधा
+                        </h3>
+                      </div>
+                      <div class="features-detail">
+                        <h4 class="h4 h4-responsive">
+                          कर्जा लगानी संस्थाले कर्जा लगानीमा विभेदिकरणको सिद्धान्तलाई विशेष रुपमा पालना गर्दै तपशिल विवरणमा उल्लेखित कर्जा शिर्षकहरुमा कर्जा प्रवाह गर्दै आएको व्यहोरा अवगत गराउँदछौं । 
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="features-wrapper" data-aos="fade-up-right">
+                    <div class="features-icon">
+                      <i class="fa fa-hand-holding-usd"></i>
+                    </div>
+                    <div class="features-detail-wrapper">
+                      <div class="features-head">
+                        <h3 class="h3 h3-responsive">
+                          कर्जा सुविधा
+                        </h3>
+                      </div>
+                      <div class="features-detail">
+                        <h4 class="h4 h4-responsive">
+                          कर्जा लगानी संस्थाले कर्जा लगानीमा विभेदिकरणको सिद्धान्तलाई विशेष रुपमा पालना गर्दै तपशिल विवरणमा उल्लेखित कर्जा शिर्षकहरुमा कर्जा प्रवाह गर्दै आएको व्यहोरा अवगत गराउँदछौं । 
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="features-wrapper" data-aos="fade-up-left">
+                    <div class="features-icon">
+                      <i class="fa fa-handshake"></i>
+                    </div>
+                    <div class="features-detail-wrapper">
+                      <div class="features-head">
+                        <h3 class="h3 h3-responsive">
+                          कर्जा सुविधा
+                        </h3>
+                      </div>
+                      <div class="features-detail">
+                        <h4 class="h4 h4-responsive">
+                          कर्जा लगानी संस्थाले कर्जा लगानीमा विभेदिकरणको सिद्धान्तलाई विशेष रुपमा पालना गर्दै तपशिल विवरणमा उल्लेखित कर्जा शिर्षकहरुमा कर्जा प्रवाह गर्दै आएको व्यहोरा अवगत गराउँदछौं । 
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="partners">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="coop-head" data-aos="zoom-in">
+                    <h2 class="h2 h2-resposive">हाम्रो साझेदार</h2>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="partner-image-wrapper" data-aos="zoom-in">
+                    <div class="partner-image">
+                      <img src="assets/images/img2.jpg" class="img img-responsive">
+                    </div>
+                     <div class="partner-image">
+                      <img src="assets/images/img1.jpg" class="img img-responsive">
+                    </div>
+                     <div class="partner-image">
+                      <img src="assets/images/img3.jpg" class="img img-responsive">
+                    </div>
+                     <div class="partner-image">
+                      <img src="assets/images/img4.jpg" class="img img-responsive">
+                    </div>
+                     <div class="partner-image">
+                      <img src="assets/images/img5.jpg" class="img img-responsive">
+                    </div>
+                     <div class="partner-image">
+                      <img src="assets/images/img8.jpg" class="img img-responsive">
+                    </div>
+                     <div class="partner-image">
+                      <img src="assets/images/img6.jpg" class="img img-responsive">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+<?php include 'assets/common/footer.php';?>
+       
